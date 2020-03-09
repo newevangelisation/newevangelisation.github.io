@@ -25,8 +25,24 @@ telephone:
   - number: +4915202635143 (🇩🇪 Germany)
   - number: +971502488603 (🇦🇪 UAE)
   - number: +447513739532 (🇬🇧 UK)
-
-copyright: 
+copyright: Divine UK
+#List of Pages with details  
+page_list: 
+  - page:
+      name: Home
+      url: /index
+  - page:
+      name: About
+      url: /about
+  - page:
+      name: History
+      url: /history
+  - page:
+      name: Testimonies
+      url: /testimonies
+  - page:
+      name: Contact
+      url: /contact
 
 # API settings
 google_api_key:
