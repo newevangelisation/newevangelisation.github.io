@@ -8,20 +8,28 @@
     {% include navigation.html %}
 
     <section id="heading" class="heading">
-        <section id="history" class="bg-primary">
+        <section id="history" class="bg-crossroad">
             <div class="container">
                 <div class="col-lg-12 text-left">
                     <h5>{{page.title}}</h5>
                 </div>
             </div>
         </section>
-        <!-- <div class="container">
+        <div class="container">
             <div class="col-lg-12 text-left">
                 <div class="text-center">
-                    <img src="img/callout.jpg" class="img-fluid"/>
+                    <img src="img/crossroad_banner.jpg" class="img-fluid"/>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <div class="container">
+            <div class="col-lg-12 text-left">
+                <div class="text-center">
+                  <h3 class="bible-passage mt-4"">"Do not be conformed to this world, but be transformed by the renewing of your minds."</h3>
+                  <p class="lead bible-passage">Romans 12:2</p>
+                </div>
+            </div>
+        </div>
         <!-- /.container -->
         <div class="container">
             <div class="col-lg-12 text-left">
@@ -30,11 +38,36 @@
                 <p>{{section.text}}</p>
                 {% endfor %}
             </div>
+            <section class="bg-crossroad">
+              <div class="container font-weight-medium">
+                <div class="row">
+                  <div class="col-lg-12 text-left">
+                    <br/>
+                    <h5><b>Basic requirements for admission</b></h5>
+                    <ul>
+                      <li><h5>General use of English (written and spoken)</h5></li>
+                      <li><h5>Willingness and openness to be taught</h5></li>
+                      <li><h5>Commitment to finish the school assignments</h5></li>
+                      <li><h5>Already have an ongoing personal relationship with God</h5></li>
+                    </ul>
+                    <h5><b>Age</b>: 20 to 30 years old<br/></h5>
+                    <h5><b>Duration</b>: 22nd July to 23rd September 2020<br/></h5>
+                    <h5><b>Frequency</b>: Weekly (Wednesday nights for 1 hour 30 minutes - via ZOOM)<br/></h5>
+                    <h5><b>Nationality</b>: All nationalities<br/></h5>
+                    <h5><b>Cost</b>: Free<br/></h5>
+                    <h5><b>Facilitators</b>: Alicia and Lavinia Antoine (Malaysia)<br/></h5>
+                    * limited to 20 participants only - on first come, first serve basis<br/><br/></h5>
+                    <h5>For more details, contact <a class="text-white" href="mailto:aliciaantoine96@gmail.com"><b>aliciaantoine96@gmail.com</b></a></h5><br/>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </div>
+            </section>
             <div class="col-lg-12 text-center">
               {% include crossroad_form.html %}
             </div>
         </div>
-    </section>      
+    </section>   
     {% include footer.html %}
     {% include scripts.html %}
   
