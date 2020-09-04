@@ -18,7 +18,7 @@
         <div class="container mt-3">
             <div class="col-lg-12 text-left">
                 <div class="text-center">
-                    <img src="img/crossroad_banner.jpg" class="img-fluid"/>
+                    <img src="img/crossroad_banner.jpg" class="img-fluid"/>                    
                 </div>
             </div>
         </div>
@@ -30,8 +30,33 @@
                 </div>
             </div>
         </div>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img1.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img2.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img3.jpg" class="img-fluid"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img4.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img5.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm mt-3">
+              <img src="img/crossroad-1/img6.jpg" class="img-fluid"/>
+            </div>
+          </div>   
+          </div>
+        </div>
         <!-- /.container -->
-        <div class="container">
+        <div class="container mt-4">
             <div class="col-lg-12 text-left">
                 <h2>{{page.contents[0].title}}</h2>
                 {% for section in page.contents[0].sections %}
@@ -41,22 +66,22 @@
             <section class="bg-crossroad">
               <div class="container font-weight-medium">
                 <div class="row">
-                  <div class="col-lg-12 text-left">
+                  <div class="col-lg-12 text-left uppercase">
                     <br/>
-                    <h5><b>Basic requirements for admission</b></h5>
+                    <h5><b>Requirements for Application</b></h5>
                     <ul>
                       <li><h5>General use of English (written and spoken)</h5></li>
                       <li><h5>Willingness and openness to be taught</h5></li>
-                      <li><h5>Commitment to finish the school assignments</h5></li>
+                      <li><h5>Commitment to school assignments and weekly lectures</h5></li>
                       <li><h5>Already have an ongoing personal relationship with God</h5></li>
                     </ul>
-                    <h5><b>Age</b>: 20 to 30 years old<br/></h5>
-                    <h5><b>Duration</b>: 22nd July to 23rd September 2020<br/></h5>
-                    <h5><b>Frequency</b>: Weekly (Wednesday nights for 1 hour 30 minutes - via ZOOM)<br/></h5>
+                    <h5><b>Age</b>: 20 to 35 years old<br/></h5>
+                    <h5><b>Duration</b>: 14th October to 16th December 2020<br/></h5>
+                    <h5><b>Frequency</b>: Weekly (Wednesdays for 2 hours - via Zoom)<br/></h5>
                     <h5><b>Nationality</b>: All nationalities<br/></h5>
                     <h5><b>Cost</b>: Free<br/></h5>
                     * limited to 20 participants only - on first come, first serve basis<br/><br/></h5>
-                    <h5>For more details, contact <a class="text-white" href="mailto:aliciaantoine96@gmail.com"><b>aliciaantoine96@gmail.com</b></a></h5><br/>
+                    <h5>For more details, contact <a class="text-white" href="mailto:crossroad@dinedrc.com"><b>crossroad@dinedrc.com</b></a></h5><br/>
                   </div>
                 </div>
                 <!-- /.row -->
@@ -69,10 +94,46 @@
                     <img src="img/lavinia.png" class="img-fluid pr-4 pl-4"/>
                     <img src="img/alicia.png" class="img-fluid pr-4 pl-4"/>
                 </div>
+            </div>            
+            <div class="col-lg-12 text-center mt-4">
+              <hr/>
+              <div class= "container text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary button-orange" data-toggle="modal" data-target="#exampleModal">
+                  APPLY NOW
+                </button>
+                <hr/>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg mx-auto" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apply Now!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="resp-container">
+                          {% include crossroad_form.html %}
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            {% include crossroad_form.html %}
-            <div class="col-lg-12 text-center">
-              
+            <!-- <div class="col-lg-12 text-center mt-4">
+              <h4>Testimonies</h4>
+              <i>See how God is moving through this school</i>
+              <hr/>
+            </div>
+            <div class="col-lg-12 text-center mt-4">
+              <h4>Contact Us</h4>
+              <hr/>
+            </div> -->
+            <div class="text-center">
+                <img src="img/lav_alicia_logo.jpg" class="img-fluid" width="500"/>        
             </div>
         </div>
     </section>   

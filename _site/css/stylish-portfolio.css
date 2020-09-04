@@ -15,6 +15,10 @@
   background-color: #337ab7!important;
 }
 
+.font-bigger {
+  font-size: 1.2rem
+}
+
 .bg-crossroad {
   color: #fff;
   background-color: #f58845!important;  
@@ -32,8 +36,17 @@
   font-size: 4.5em;
 }
 
+.button-orange {
+  background-color: #f58845!important;
+  border-color: #f58845!important;
+}
+
 #title-crossroad {
   color: #000;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .font-crossroad {
@@ -99,7 +112,7 @@ body {
 }
 
 .bible-passage {
-    font-family: 'EB Garamond', serif;
+  font-style: italic;
 }
 
 .service-item:hover {
