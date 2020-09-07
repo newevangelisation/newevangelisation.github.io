@@ -53,6 +53,30 @@
   font-family: 'Anton', sans-serif;
 }
 
+.testimony {
+  width: 98%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+}
+
+.testimony-image {
+  z-index: 9;
+}
+
+.carousel-control-next { visibility: visible; }
+
+.testimony-text {
+  background-color: #000;
+  color: #fff;
+  z-index: 8;
+  padding: 10px;
+  font-size: 1em;
+}
+
 html,
 body {
     width: 100%;

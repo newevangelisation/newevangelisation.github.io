@@ -1,0 +1,33 @@
+<div class="container">
+  <h3>Testimonies</h3>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      {% for testimony in page.testimonies %}
+      <div class="carousel-item {{testimony.active}}">
+        <div class="card d-block w-100">
+          <div class="card-body testimony">
+            <div class="row">
+              <div class="col-6 testimony-image">
+                <img src="img/crossroad-1/testimonies/{{testimony.image}}" class="img-fluid float-right">
+              </div>
+              <div class="col-6 testimony-text">
+                <span class="align-bottom">
+                  <p class="card-text">{{testimony.testimony}} - {{testimony.name}}</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
