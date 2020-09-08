@@ -67,6 +67,10 @@
   z-index: 9;
 }
 
+#testimony-carousel {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .carousel-control-next { visibility: visible; }
 
 .testimony-text {
