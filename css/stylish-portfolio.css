@@ -67,7 +67,13 @@
   z-index: 9;
 }
 
-#testimony-carousel {
+.testimonies-header {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel {
   background-color: rgba(43, 45, 38);
 }
 
@@ -79,6 +85,11 @@
   z-index: 8;
   padding: 10px;
   font-size: 1em;
+}
+
+hr.white {
+  background-color: #fff;
+  margin: 0;
 }
 
 html,
