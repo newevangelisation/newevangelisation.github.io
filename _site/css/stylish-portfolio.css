@@ -7,6 +7,10 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+  font-family: 'Norwester';
+  src: url(../fonts/norwester.woff);
+}
 
 /* Global Styles */
 
@@ -21,11 +25,93 @@
 
 .bg-crossroad {
   color: #fff;
+  background-color: #000!important;  
+}
+
+.bg-orange {
+  color: #000;
   background-color: #f58845!important;  
+}
+
+.transform-5 {
+  transform: rotate(-5deg);
+}
+
+#header_image {
+  position:relative;
+  display:inline-block;
+  text-align:center;
+}
+
+#header_button {
+  font-size: 1.4em;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  position:absolute;
+  bottom:40px;
+  right:2rem;
+  background-color: rgba(255, 0, 0, 0.0);!important;  
+  border-color: #fff!important;
+  color: #fff;
+  font-family: 'Norwester', sans-serif;
+}
+
+#header_button:hover {
+  color: #fff;
+  background-color: #f58845!important;  
+  border-color: #f58845!important;
+}
+
+.vcenter-item{
+  display: flex;
+  align-items: center;
+}
+
+.reverse-transform-5 {
+  transform: rotate(5deg);
+}
+
+.title {
+  font-family: 'Norwester', sans-serif;
+}
+
+.img-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);  
+}
+
+.img-grayscale:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);  
+}
+
+.lh-1 {
+  line-height: 1.6;
+}
+
+.purple {
+  color: #b152fa;
 }
 
 .title-large {
   font-size: 2.5em;
+}
+
+#req_header {
+  position:relative;
+  display:inline-block;
+  text-align:center;
+}
+
+#req_title {
+  position:absolute;
+  top:10px;
+  left:20px;
+  color: #fff;
+  font-size: 2.2em;
+  line-height: 1.1em;
+  font-family: 'Norwester', sans-serif;
+  text-shadow: 2px 2px #000;
 }
 
 .title-medium {
@@ -50,7 +136,13 @@
 }
 
 .font-crossroad {
+  color: #f58845;
   font-family: 'Anton', sans-serif;
+}
+
+.font-school {
+  text-stroke: 2px #fff;
+  color: #fff;
 }
 
 .testimony {
@@ -67,7 +159,13 @@
   z-index: 9;
 }
 
-#testimony-carousel {
+.testimonies-header {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel {
   background-color: rgba(43, 45, 38);
 }
 
@@ -79,6 +177,12 @@
   z-index: 8;
   padding: 10px;
   font-size: 1em;
+}
+
+hr.white {
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 html,

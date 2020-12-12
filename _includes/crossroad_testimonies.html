@@ -1,6 +1,6 @@
 {% for batch in page.batches %}
-  <div id="testimony-carousel-{{batch.id}}" class="carousel slide" data-ride="carousel">
-    <h2 class="testimonies-header">{{batch.name}}</h2>
+<h2>{{batch.name}}</h2>
+  <div id="testimony-carousel-{{batch.id}}" class="carousel slide" data-ride="carousel">    
     <div class="carousel-inner">
       {% for testimony in batch.testimonies %}
       <div class="carousel-item {{testimony.active}}">
