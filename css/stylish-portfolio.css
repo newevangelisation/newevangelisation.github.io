@@ -28,6 +28,10 @@
   background-color: #000!important;  
 }
 
+#section-requirements {
+  overflow: hidden;
+}
+
 .bg-orange {
   color: #000;
   background-color: #f58845!important;  
