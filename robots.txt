@@ -1,0 +1,8 @@
+User-agent: Googlebot-Image
+Disallow: /img/crossroad-1/testimonies/
+
+User-agent: Googlebot-Image
+Disallow: /img/crossroad-2/testimonies/
+
+User-agent: Googlebot-Image
+Disallow: /img/crossroad-3/testimonies/
