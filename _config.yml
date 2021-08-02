@@ -41,9 +41,6 @@ page_list:
       name: Testimonies
       url: /testimonies
   - page:
-      name: Crossroad School of Discipleship
-      url: /crossroad      
-  - page:
       name: Contact
       url: /contact
 
